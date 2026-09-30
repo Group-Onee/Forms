@@ -1,4 +1,4 @@
-<<project xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -18,15 +18,12 @@
   </properties>
 
   <dependencies>
-    <!-- jcalendar is needed at compile time (and is therefore also on the test classpath) -->
     <dependency>
       <groupId>com.toedter</groupId>
       <artifactId>jcalendar</artifactId>
       <version>1.4</version>
       <scope>compile</scope>
     </dependency>
-
-    <!-- junit-jupiter aggregator already brings in api, params and engine -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter</artifactId>
@@ -53,4 +50,4 @@
       </plugin>
     </plugins>
   </build>
-</project>
+</project>s
